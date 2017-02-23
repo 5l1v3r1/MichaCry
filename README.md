@@ -54,9 +54,9 @@ Feedback me more features if you want it :D
 **I need your Help to become it to better.**
 
 ### Contact:
-Email: **tungtttb95@gmail.com**
-Website: **https://wreckitkenny.net**
-Channel: **https://goo.gl/kwjazK**
+- Email: **tungtttb95@gmail.com**
+- Website: **https://wreckitkenny.net**
+- Youtube Channel: **https://goo.gl/kwjazK**
 
 ## License:
 
