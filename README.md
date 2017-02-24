@@ -28,6 +28,7 @@ Taken from [LICENSE](LICENSE).
 * apt
 * Linux
 * sudo
+* pip
 * python2.7
 * python3.5
 
