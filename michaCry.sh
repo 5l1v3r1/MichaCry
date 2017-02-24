@@ -17,6 +17,7 @@ fi
 ##MENU
 mainmenu(){
 #banner
+
 echo -e """\e[1m\e[31m
       ======================================================================
      |          __  __ ___ ____ _   _    _       ____ ______   __	    |
@@ -28,6 +29,7 @@ echo -e """\e[1m\e[31m
      |	#Coded by Wreckit-Kenny | @wreckitkenny | https://wreckitkenny.net  |
       ======================================================================
 \e[0m\e[0m"""
+espeak "Hello guys! This is MichaCry. Select one of the following options. Thankyou"
 mainmenu=("Web Application" "Wireless Attack" "Personal Computer" "Sniffing & Spoofing" "Password Attack"  "Quit")
 select opt in "${mainmenu[@]}"
 do
@@ -59,12 +61,14 @@ done
 }
 
 #Deploy Functions
-if [ -d webApp ]
-then
+#if [ -d webApp ]
+#then
+
 	mainmenu
-else
-	echo -e "\e[31m\e[1mNOTE: bash setup.sh with ROOT\e[0m\e[0m"
-fi
+
+#else
+#	echo -e "\e[31m\e[1mNOTE: bash setup.sh with ROOT\e[0m\e[0m"
+#fi
 
 
 
