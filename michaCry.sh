@@ -60,15 +60,13 @@ do
 done
 }
 
-#Deploy Functions
-#if [ -d webApp ]
-#then
-
+Deploy Functions
+if [ -d webApp ]
+then
 	mainmenu
-
-#else
-#	echo -e "\e[31m\e[1mNOTE: bash setup.sh with ROOT\e[0m\e[0m"
-#fi
+else
+	echo -e "\e[31m\e[1mNOTE: bash setup.sh with ROOT\e[0m\e[0m"
+fi
 
 
 
