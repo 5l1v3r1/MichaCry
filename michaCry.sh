@@ -47,7 +47,7 @@ do
 		bash wireless.sh
 	elif [ "$opt" = "Personal Computer" ]
 	then
-		echo "COMING SOON !!!"
+		bash personalCom.sh
 	elif [ "$opt" = "Sniffing & Spoofing" ]
 	then
 		echo "COMING SOON !!!"
