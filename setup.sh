@@ -36,6 +36,11 @@ pip install argparse
 pip install netaddr
 apt-get install openssl -y
 cd -
+#joomlavs
+git clone https://github.com/rastating/joomlavs.git webApp/joomlavs
+cd webApp/joomlavs
+sudo gem install bundler && bundle install
+cd -
 
 #wireless
 git clone https://github.com/wreckitkenny/fluxion.git wireless/fluxion

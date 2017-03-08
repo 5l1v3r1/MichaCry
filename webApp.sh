@@ -127,7 +127,7 @@ clear
 figlet -c Vulnerabilities Scanner
 echo ""
 echo "===================================== Vulnerability Scanner =====================================" 
-vulScan=("Cross-site Scripting(XSS) with XSScrapy" "Cross-site Scripting(XSS) with DSJS" "SSL" "Back" "Quit")
+vulScan=("Cross-site Scripting(XSS) with XSScrapy" "Cross-site Scripting(XSS) with DSJS" "SSL" "Joomla" "Back" "Quit")
 select opt in "${vulScan[@]}"
 do
 	if [ "$opt" = "Back" ]
@@ -149,6 +149,9 @@ do
 	elif [ "$opt" = "SSL" ]
 	then 
 		ssl
+	elif [ "$opt" = "Joomla" ]
+	then 
+		joomla
 	fi
 done
 }
@@ -183,6 +186,14 @@ python webApp/a2sv/a2sv.py -t "$target"
 python webApp/a2sv/a2sv.py -t "$target" > Target/$target/ssl
 echo ""
 echo -e "\e[1m==> The SSL information is saved to Target/$target/ssl\e[0m"
+}
+##joomla
+joomla(){
+clear
+figlet -c Joomla Scanner
+echo "===================================== SSL ====================================="
+ruby webApp/joomlavs/joomlavs.rb -u $target -c -m -t
+echo "Done!"
 }
 ##Deploy script
 ipaddress1
