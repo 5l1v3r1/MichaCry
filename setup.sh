@@ -38,6 +38,6 @@ apt-get install openssl -y
 cd -
 
 #wireless
-git clone https://github.com/deltaxflux/fluxion.git wireless/fluxion
+git clone https://github.com/wreckitkenny/fluxion.git wireless/fluxion
 
 
