@@ -60,7 +60,7 @@ do
 done
 }
 
-Deploy Functions
+#Deploy Functions
 if [ -d webApp ]
 then
 	mainmenu
