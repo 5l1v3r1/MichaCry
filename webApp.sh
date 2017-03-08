@@ -191,7 +191,7 @@ echo -e "\e[1m==> The SSL information is saved to Target/$target/ssl\e[0m"
 joomla(){
 clear
 figlet -c Joomla Scanner
-echo "===================================== SSL ====================================="
+echo "===================================== Joomla ====================================="
 ruby webApp/joomlavs/joomlavs.rb -u $target -c -m -t
 echo "Done!"
 }
