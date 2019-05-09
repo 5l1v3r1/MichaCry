@@ -1,7 +1,6 @@
 # MichaCry - An Automated Pentesting Tool
 
-Copyright 2017 MichaCry
-Written by: Tung Tran Thanh - [WreckitKenny](https://github.com/wreckitkenny)
+Copyright 2017 MichaCry written by: Tung Tran Thanh - [WreckitKenny](https://github.com/wreckitkenny)
 
 
 ## DISCLAIMER: 
@@ -36,9 +35,9 @@ Taken from [LICENSE](LICENSE).
 
 + Kali Linux 
 
-### Cloning:
+### Installing:
 ```
-https://github.com/wreckitkenny/MichaCry.git
+git clone https://github.com/wreckitkenny/MichaCry.git
 ```
 
 ### Running:
@@ -55,12 +54,8 @@ Feedback me more features if you want it :D
 **I need your Help to become it to better.**
 
 ### Contact:
-- Email: **tungtttb95@gmail.com**
-- Website: **https://wreckitkenny.net**
-- Youtube Channel: **https://goo.gl/kwjazK**
-
-## License:
-
-This project is licensed under the BSD-3-Clause - see the [LICENSE](LICENSE) file for details.
+- Email: **tung.tran.3295@gmail.com**
+- Website: **NONE**
+- Youtube Channel: **NONE**
 
 Thank you!!!
