@@ -65,7 +65,5 @@ then
 else
 	echo -e "\e[31m\e[1mNOTE: bash setup.sh with ROOT\e[0m\e[0m"
 fi
-
-test
-
+asdasd
 
