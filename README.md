@@ -1,9 +1,7 @@
 # MichaCry - An Automated Pentesting Tool
 
-Copyright 2017 MichaCry written by: Tung Tran Thanh - [WreckitKenny](https://github.com/wreckitkenny)
 
-
-## DISCLAIMER: 
+## Disclaimer 
 
 "DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
 FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
@@ -31,31 +29,33 @@ Taken from [LICENSE](LICENSE).
 * python2.7
 * python3.5
 
-### Tested on:
+### Tested on
 
 + Kali Linux 
 
-### Installing:
+### Installing
 ```
 git clone https://github.com/wreckitkenny/MichaCry.git
 ```
 
-### Running:
+### Running
 ```
 sudo bash setup.sh
 ```
 
-### Screenshot:
+### Screenshot
 ![Shot](https://github.com/wreckitkenny/MichaCry/blob/master/screenshot.png)
 
-### Contribute:
+### Contribute
 Feedback me more features if you want it :D
 
 **I need your Help to become it to better.**
 
-### Contact:
+### Contact
 - Email: **tung.tran.3295@gmail.com**
 - Website: **NONE**
 - Youtube Channel: **NONE**
 
 Thank you!!!
+
+Copyright 2017 MichaCry written by: Tung Tran Thanh - [WreckitKenny](https://github.com/wreckitkenny)
